@@ -8,7 +8,10 @@
 
 #import <XCTest/XCTest.h>
 #import "OSSTestMacros.h"
-#import <AliyunOSSiOS/AliyunOSSiOS.h>
+#import "OSSService.h"
+#import "OSSCompat.h"
+#import "OSSXMLDictionary.h"
+#import "OSSIPv6Adapter.h"
 #import "OSSTestUtils.h"
 
 @interface OSSBucketTests : XCTestCase

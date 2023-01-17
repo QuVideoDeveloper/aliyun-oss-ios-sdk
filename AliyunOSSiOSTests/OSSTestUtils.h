@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AliyunOSSiOS/AliyunOSSiOS.h>
+#import "OSSService.h"
+#import "OSSCompat.h"
+#import "OSSXMLDictionary.h"
+#import "OSSIPv6Adapter.h"
 
 @interface OSSTestUtils : NSObject
 + (void)cleanBucket: (NSString *)bucket with: (OSSClient *)client;

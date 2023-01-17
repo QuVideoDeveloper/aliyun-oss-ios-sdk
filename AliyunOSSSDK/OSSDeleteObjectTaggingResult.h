@@ -6,7 +6,10 @@
 //  Copyright © 2021 aliyun. All rights reserved.
 //
 
-#import <AliyunOSSiOS/AliyunOSSiOS.h>
+#import "OSSService.h"
+#import "OSSCompat.h"
+#import "OSSXMLDictionary.h"
+#import "OSSIPv6Adapter.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
