@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OSSFileLogger.h"
+#import "OSSFileLog/OSSFileLogger.h"
 
 #import "NSMutableDictionary+OSS.h"
 #import "NSMutableData+OSS_CRC.h"
