@@ -25,9 +25,10 @@ import PackageDescription
              exclude: ["OSSLog.swift"],
              publicHeadersPath:"../AliyunOSSSDK/",
              cSettings: [
-                 .headerSearchPath("OSSFileLog"),
-                 .headerSearchPath("OSSIPv6"),
-                 .headerSearchPath("OSSTask")
+                .headerSearchPath("."),
+                .headerSearchPath("OSSFileLog"),
+                .headerSearchPath("OSSIPv6"),
+                .headerSearchPath("OSSTask")
              ],
              linkerSettings: [
                  .linkedLibrary("resolv")
