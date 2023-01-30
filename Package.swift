@@ -27,7 +27,6 @@ import PackageDescription
              cSettings: [
                  .headerSearchPath("OSSFileLog"),
                  .headerSearchPath("OSSIPv6"),
-                 .headerSearchPath("OSSTask.h"),
                  .headerSearchPath("OSSTask")
              ],
              linkerSettings: [

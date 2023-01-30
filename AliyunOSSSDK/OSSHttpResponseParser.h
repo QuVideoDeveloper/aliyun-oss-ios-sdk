@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "OSSConstants.h"
-#import "OSSTask.h"
+#import "OSSTask/OSSTask.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
