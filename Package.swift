@@ -23,7 +23,7 @@ import PackageDescription
              dependencies: [],
              path: "AliyunOSSSDK",
              exclude: ["OSSLog.swift"],
-             publicHeadersPath:"../AliyunOSSSDK",
+             publicHeadersPath:"../AliyunOSSSDK/",
              cSettings: [
                  .headerSearchPath("OSSFileLog"),
                  .headerSearchPath("OSSIPv6"),
