@@ -25,7 +25,7 @@ import PackageDescription
              exclude: ["OSSLog.swift"],
              publicHeadersPath:"../AliyunOSSSDK/",
              cSettings: [
-                .headerSearchPath("."),
+                .headerSearchPath("*"),
                 .headerSearchPath("OSSFileLog"),
                 .headerSearchPath("OSSIPv6"),
                 .headerSearchPath("OSSTask")
