@@ -26,9 +26,9 @@ import PackageDescription
              publicHeadersPath:"../AliyunOSSSDK/",
              cSettings: [
                 .headerSearchPath("*.h"),
-                .headerSearchPath("OSSFileLog"),
-                .headerSearchPath("OSSIPv6"),
-                .headerSearchPath("OSSTask")
+                .headerSearchPath("OSSFileLog/"),
+                .headerSearchPath("OSSIPv6/"),
+                .headerSearchPath("OSSTask/")
              ],
              linkerSettings: [
                  .linkedLibrary("resolv")
