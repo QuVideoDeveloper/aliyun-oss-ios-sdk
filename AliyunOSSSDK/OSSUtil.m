@@ -13,7 +13,7 @@
 #import "OSSModel.h"
 #import "OSSLog.h"
 #import "OSSHttpdns.h"
-#import "OSSIPv6Adapter.h"
+#import "OSSIPv6/OSSIPv6Adapter.h"
 #import "OSSReachability.h"
 #import <CoreTelephony/CTCarrier.h>
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>

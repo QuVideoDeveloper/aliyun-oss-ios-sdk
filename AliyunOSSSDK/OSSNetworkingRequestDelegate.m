@@ -14,7 +14,7 @@
 #import "OSSDefine.h"
 #import "OSSUtil.h"
 #import "OSSLog.h"
-#import "OSSIPv6Adapter.h"
+#import "OSSIPv6/OSSIPv6Adapter.h"
 
 @implementation OSSNetworkingRequestDelegate
 
