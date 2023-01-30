@@ -8,7 +8,7 @@
 
 #import "OSSDefine.h"
 #import "OSSNetworking.h"
-#import "OSSBolts.h"
+#import "OSSTask/OSSBolts.h"
 #import "OSSModel.h"
 #import "OSSUtil.h"
 #import "OSSLog.h"
