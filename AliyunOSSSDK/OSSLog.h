@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OSSCocoaLumberjack.h"
+#import "OSSFileLog/OSSCocoaLumberjack.h"
 static const OSSDDLogLevel ossLogLevel = OSSDDLogLevelAll;
 
 // colorful log configuration

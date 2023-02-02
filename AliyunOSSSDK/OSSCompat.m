@@ -8,7 +8,7 @@
 
 #import "OSSDefine.h"
 #import "OSSCompat.h"
-#import "OSSBolts.h"
+#import "OSSTask/OSSBolts.h"
 #import "OSSModel.h"
 
 @implementation OSSClient (Compat)

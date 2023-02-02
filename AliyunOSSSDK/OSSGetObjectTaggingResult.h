@@ -9,7 +9,7 @@
 #import "OSSService.h"
 #import "OSSCompat.h"
 #import "OSSXMLDictionary.h"
-#import "OSSIPv6Adapter.h"
+#import "OSSIPv6/OSSIPv6Adapter.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

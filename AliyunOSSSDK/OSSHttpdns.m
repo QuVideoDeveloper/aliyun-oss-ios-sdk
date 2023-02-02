@@ -8,7 +8,7 @@
 
 #import "OSSLog.h"
 #import "OSSHttpdns.h"
-#import "OSSIPv6Adapter.h"
+#import "OSSIPv6/OSSIPv6Adapter.h"
 
 NSString * const OSS_HTTPDNS_SERVER_IP = @"203.107.1.1";
 NSString * const OSS_HTTPDNS_SERVER_PORT = @"80";
