@@ -15,8 +15,10 @@
 #import "OSSHttpdns.h"
 #import "OSSIPv6/OSSIPv6Adapter.h"
 #import "OSSReachability.h"
+#if !TARGET_OS_VISION
 #import <CoreTelephony/CTCarrier.h>
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#endif
 #import "aos_crc64.h"
 
 NSString * const ALIYUN_HOST_SUFFIX = @".aliyuncs.com";
@@ -1103,7 +1105,7 @@ int32_t const CHUNK_SIZE = 8 * 1024;
 }
 + (NSString*)buildOperatorMsg{
     NSString *currentCountry;
-#if TARGET_OS_IOS
+#if TARGET_OS_IOS && !TARGET_OS_VISION
     CTTelephonyNetworkInfo *telephonyInfo = [[CTTelephonyNetworkInfo alloc] init];
     CTCarrier *carrier = [telephonyInfo subscriberCellularProvider];
     if(carrier){
